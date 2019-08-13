@@ -275,12 +275,10 @@ let mycluster = JSON.stringify(
     new Date()
   )
 );
-let mycluster1 = User.fromJSON(JSON.parse(mycluster));
+let mycluster1 = Cluster.fromJSON(JSON.parse(mycluster));
 //let usr1 = JSON.parse(data1, User.reviver);
 
 console.log('this is mycluster ' + mycluster);
 console.log('this is mycluster1 ' + JSON.stringify(mycluster1));
 
 // For more enhancement, you can create getter and setter to access private properties / attributes
-
-

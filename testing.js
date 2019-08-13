@@ -180,8 +180,8 @@ var controlpanel = new Panel('8', '32', '100', '500', 'SSD'); //When JSON.string
 var workerpanel = new Panel('8', '32', '100', '500', 'SSD', '1');
 var storagepanel = new Panel('8', '32', '100', '500', 'SSD', '1');
 var mycluster = JSON.stringify(new Cluster('myhostname', 1000, 'REDHAT', 'dev', controlpanel, workerpanel, storagepanel, new Date()));
-var mycluster1 = User.fromJSON(JSON.parse(mycluster));
+var mycluster1 = Cluster.fromJSON(JSON.parse(mycluster));
 //let usr1 = JSON.parse(data1, User.reviver);
 console.log('this is mycluster ' + mycluster);
 console.log('this is mycluster1 ' + JSON.stringify(mycluster1));
-// console.log('this is reviver ' + JSON.stringify(usr1));
+// For more enhancement, you can create getter and setter to access private properties / attributes
