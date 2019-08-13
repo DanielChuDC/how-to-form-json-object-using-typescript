@@ -5,7 +5,7 @@ This repo demostrate how to use typescript form json object
 # Before you begin
 
 - Install [Node js](https://nodejs.org/en/download/) and npm
-- Install the typescript package golbally, follow this [tutorial](https://code.visualstudio.com/docs/typescript/typescript-tutorial)
+- Install the typescript package globally, follow this [tutorial](https://code.visualstudio.com/docs/typescript/typescript-tutorial)
 
 ```bash
 # Verify node version and npm version
